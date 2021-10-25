@@ -1,21 +1,14 @@
+import { Fragment } from "react";
+import Banner from "./Banner";
+import Cart from "./Cart";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          We start coding !
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Fragment>
+      <Banner />
+      <Cart /> 
+    </Fragment>
+  )
 }
 
 export default App;
